@@ -1,0 +1,118 @@
+ <!doctype html> 
+<html>
+
+<head>
+    <meta charset="UTF-8"> 
+	<title> Tutorial 6 </title>
+	
+	<script onclick="alert"> 
+	
+	
+	
+	
+</head>	
+
+<style type="text/css">
+
+label {
+	display: inline-block; color: red;
+	width: 100px;
+	text-align: left;}
+	input{text-align: center;}
+	textarea {float-left;}
+	div {background-color: #BFBFBF;
+	}
+  
+div {
+	border-radius: 25px; 
+	padding: 15px; 
+	height: 540px;
+	width: 50%; 
+	position: relative; 
+	}
+  
+fieldset { 
+	border: 5px;
+	border-radius:8px;
+	box-shadow: 0 0 5px #999;
+	}
+
+legend1{
+	margin-bottom:0px;
+	margin-left:16px;
+	
+	}
+  p {text-align: left; }
+  
+</style>
+
+<body>
+	<form>
+		<div>
+			<fieldset>
+			<legend> sign up for updates </legend>
+			<label for="name">First name:</label>
+				<input type="text" name="name" style="color: #999b97;"placeholder="Name">
+			<br>
+			<br>
+		
+			<label for="surname">Surname:</label>
+				<input type="text" name="surname" style="color: #999b97;" placeholder="Surname">
+			<br>
+			<br>
+			
+			<label for="email">Email:</label>
+				<input type="email" name="email" style="color: #999b97;" placeholder="example@gmail.com" >
+			<br>
+			<br>
+
+			<label for="Password">Password:</label>
+				<input type="password" name="pin" id="password" size="20">
+			<br>
+			<br>
+			
+			<span style="color: red;"> Type of student: </span>
+
+			<input type="radio" name="type of student" value="graduate"> graduate
+			<input type="radio" name="type of student" value="post graduate"> post graduate<br>
+             <br>
+			 <br>
+
+			 
+			<label for="content"> Queries: </label> 
+			
+			<textarea id="content" name="content" rows="5" cols="20">
+			</textarea><br>
+			<br>
+			<br>
+			
+			<span style="color: red;"> Select Courses: </span>
+			
+			<select name="courses" id="courses">
+			<option value="Law"> Law </option>
+			<option value="Biomedical science" selected> Biomedical science</option>
+			<option value="Software Engineering">Software Engineering</option>
+			</select>
+			
+			<br>
+			<br>
+		    <br>
+			
+			
+			<input type="checkbox" name="Terms and conditions" id="Terms and conditions" 
+		    value="Terms and conditions" checked>
+			
+			Please tick box to agree to terms and conditions<br>
+            required field*
+			
+			<br>
+			<br>
+			
+			<p><input type="submit" name="button" value="Submit Query"> 
+				<input type="reset" name="button" value="Reset"> </p>
+			
+			</fieldset>
+		</div>
+</form>
+</body>
+</html>
